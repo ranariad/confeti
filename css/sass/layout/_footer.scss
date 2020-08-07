@@ -1,0 +1,91 @@
+footer{
+	.footer-header{
+		font-size: 20px;
+		text-transform: uppercase;
+		margin-top: 100px;
+		margin-bottom: 40px;
+		letter-spacing: .2em;
+	}
+	.gallary{
+		margin-top: 60px;
+		margin-left: 15px;
+		img{
+			width: 100%;
+			    margin-bottom: 38px;
+				transform: scale(1.4);
+				padding-right: 5px;
+		}
+	}
+	.quick-links-list{
+			list-style: none;
+			color: #151515;
+			margin-left: -37px;
+		li{
+			font-size: 16px;
+			margin-bottom: 7px;
+			&::before{
+				display: inline-block;
+				vertical-align: middle;
+				content: '';
+				height: 2px;
+				width: 17px;
+				margin-right: 17px;
+				background: #d7d7d7;
+				transition: inherit;
+				
+			}
+		}
+	}
+	.quick-links{
+		margin-left: 75px;
+	}
+	
+	.continu-links{
+		margin-top: 163px;
+	}
+	
+	.adress-icon , .phone-icon , .mail-icon{
+					position: absolute;
+					color: #ff4e3c;
+				    left: 7px;
+		}
+	
+	.get-in-touch{
+		margin-left: -12px;
+		.in-touch-body{
+			margin-left: 40px;
+		}
+		.address{
+			margin-bottom:10px;
+			.adress-icon{
+				font-size: 8px;
+			}
+		}
+		
+		.phone{
+			margin-bottom: 10px;
+		}
+		
+		.social-footer{
+			list-style: none;
+			margin-left: -80px;
+   			margin-top: 25px;
+			
+			li{
+				
+				a{
+					float: left;
+					margin-left: 11px;
+					margin-right: 15px;
+					border-radius: 50%;
+					width: 40px;
+					height: 40px;
+					border: 1px solid;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+		}
+	}
+}
